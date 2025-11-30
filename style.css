@@ -11,7 +11,6 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px;
-    margin-top: 70px;
 }
 
 .column {
@@ -35,9 +34,12 @@ p {
 
 .img {
     align-self: center;
-    width: 800px;
-    height: 500px;
+    width: 730px;
+    height: 430px;
     border-radius: 20px;
-    box-shadow: blue;
     box-shadow: rgb(169 173 212) 0px 0px 24px 0px;
+}
+
+.img-no-shadow {
+    box-shadow: none;
 }
